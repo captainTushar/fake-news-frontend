@@ -9,7 +9,7 @@ function App() {
 
   const handlePredict = async () => {
     try {
-      const res = await fetch("https://fake-news-backend-1-nzoc.onrender.com/", {
+      const res = await fetch("https://fake-news-backend-1-nzoc.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
